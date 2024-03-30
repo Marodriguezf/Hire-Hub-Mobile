@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crear_vacante">
+
+    <LinearLayout
+        android:layout_width="354dp"
+        android:layout_height="575dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="134dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="537dp"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName7"
+                    android:layout_width="250dp"
+                    android:layout_height="37dp"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-medium"
+                    android:inputType="textPersonName"
+                    android:text="Titulo"
+                    android:textColor="#071040"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="42dp"
+                    tools:layout_editor_absoluteY="28dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName9"
+                    android:layout_width="250dp"
+                    android:layout_height="37dp"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-medium"
+                    android:inputType="textPersonName"
+                    android:text="Ubicación"
+                    android:textColor="#071040"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="42dp"
+                    tools:layout_editor_absoluteY="156dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName10"
+                    android:layout_width="250dp"
+                    android:layout_height="37dp"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-medium"
+                    android:inputType="textPersonName"
+                    android:text="Departamento"
+                    android:textColor="#071040"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="42dp"
+                    tools:layout_editor_absoluteY="223dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName11"
+                    android:layout_width="250dp"
+                    android:layout_height="37dp"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-medium"
+                    android:inputType="textPersonName"
+                    android:text="Jefe Inmediato"
+                    android:textColor="#071040"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="42dp"
+                    tools:layout_editor_absoluteY="292dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName12"
+                    android:layout_width="250dp"
+                    android:layout_height="37dp"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-medium"
+                    android:inputType="textPersonName"
+                    android:text="Salario"
+                    android:textColor="#071040"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="42dp"
+                    tools:layout_editor_absoluteY="358dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName13"
+                    android:layout_width="250dp"
+                    android:layout_height="37dp"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-medium"
+                    android:inputType="textPersonName"
+                    android:text="Competencias"
+                    android:textColor="#071040"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="42dp"
+                    tools:layout_editor_absoluteY="423dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#071040"
+                    android:text="Crear"
+                    tools:layout_editor_absoluteX="111dp"
+                    tools:layout_editor_absoluteY="476dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName8"
+                    android:layout_width="250dp"
+                    android:layout_height="37dp"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-medium"
+                    android:inputType="textPersonName"
+                    android:text="Descripción"
+                    android:textColor="#071040"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="42dp"
+                    tools:layout_editor_absoluteY="92dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Crear vacante"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#071040"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/settings" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/information_circle_contained"
+        tools:layout_editor_absoluteX="384dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/menu_01"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
